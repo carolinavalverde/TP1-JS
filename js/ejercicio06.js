@@ -1,5 +1,5 @@
-let valor1 = parseInt(prompt('Ingrese un número'));
-let valor2 = parseInt(prompt('Ingrese otro número'));
+const valor1 = parseInt(prompt('Ingrese un número'));
+const valor2 = parseInt(prompt('Ingrese otro número'));
 
 if( valor1 >=valor2){
     document.write(`<p>El ${valor1} es el número más grande</p>`);
